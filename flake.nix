@@ -23,6 +23,10 @@
           nativeBuildInputs = with pkgs; [
             bun
           ];
+
+          shellHook = ''
+            bun prettier . --write
+          '';
         };
       }
     );

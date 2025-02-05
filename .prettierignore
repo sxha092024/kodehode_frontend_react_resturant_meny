@@ -1,0 +1,8 @@
+assets
+
+**/*.html
+**/*.nix
+**/*.lock
+# Ignore artifacts:
+build
+coverage
