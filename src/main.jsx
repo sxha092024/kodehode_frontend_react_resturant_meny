@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import { } from "./menu_data";
+import "./styles/index.css";
+import App from "./app";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <h1>Vite + React</h1>
+    <App />
   </StrictMode>,
 );
