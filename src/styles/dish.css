@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #161a27;
+  padding: 0 0 0 1em;
+  box-shadow: #071730cc 0.5em 0.75em 0.75em;
+}
+
+.card > p {
+  padding: 0 0 0 5%;
+}
+.card > div {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.category {
+  font-weight: 900;
+}
+
+.title {
+  font-size: 1.25em;
+  padding-top: 0.5em;
+}
+
+.price {
+  font-weight: 900;
+  align-self: flex-end;
+  margin: 0 1em 0 0;
+}
+
+.price,
+.category,
+.t-sm {
+  font-size: 0.8em;
+}
+
+li {
+  flex: 1 0 17%;
+  width: 10em;
+  margin: 1.5em 0.5em;
+}
+
+.ingredients {
+  list-style: disc;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+.ingredient {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    background-color: #ccd6e9;
+    box-shadow: #07123056 0.5em 0.75em 0.75em;
+  }
+}
